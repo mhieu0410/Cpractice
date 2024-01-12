@@ -2,17 +2,17 @@
 
 using namespace std;
 
-double sumTwoNumbers( double number1, double number2){
-return (number1 + number2);
+int convertMinutesToSecond ( int minutes){
+    return ( minutes * 60);
 }
+
 int main(){
-    double number1, number2, sum;
-    cout<<"enter the number1:"<<endl;
-    cin>>number1;
-    cout<<"enter the number2:"<<endl;
-    cin>>number2;
-    sum = sumTwoNumbers(number1,number2);
-    cout<<" the result: "<<sum<<endl;
+    int minutes, seconds;
+    cout<<" enter minutes:"<<endl;
+    cin>>minutes;
+    seconds= convertMinutesToSecond(minutes);
+    cout<<" seconds: "<<seconds<<endl;
+    
     return 0; 
 }
 
