@@ -2,16 +2,16 @@
 
 using namespace std;
 
-int convertMinutesToSecond ( int minutes){
-    return ( minutes * 60);
+int  convertAgeFromYearsToDays( int years){
+    return ( years * 365);
 }
 
 int main(){
-    int minutes, seconds;
-    cout<<" enter minutes:"<<endl;
-    cin>>minutes;
-    seconds= convertMinutesToSecond(minutes);
-    cout<<" seconds: "<<seconds<<endl;
+    int years, days, age;
+    cout<<" how many years have you lived:"<<endl;
+    cin>>years;
+    days= convertAgeFromYearsToDays(years);
+    cout<<" the number of days you have lived: "<< days <<" days"<<endl;
     
     return 0; 
 }
