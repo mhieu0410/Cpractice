@@ -7,7 +7,7 @@ int  convertAgeFromYearsToDays( int years){
 }
 
 int main(){
-    int years, days, age;
+    int years, days;
     cout<<" how many years have you lived:"<<endl;
     cin>>years;
     days= convertAgeFromYearsToDays(years);
